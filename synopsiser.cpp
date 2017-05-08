@@ -6,6 +6,8 @@ Synopsiser::Synopsiser(QWidget *parent) :
     ui(new Ui::Synopsiser)
 {
     ui->setupUi(this);
+
+    QObject::connect(ui->actionOpen, SIGNAL(triggered()), this, SLOT(getOriginalVideoPath()));
 }
 
 Synopsiser::~Synopsiser()
