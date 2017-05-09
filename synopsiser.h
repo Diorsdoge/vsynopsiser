@@ -18,7 +18,13 @@ public:
 private:
     Ui::Synopsiser *ui;
 private slots:
-    QString getOriginalVideoPath();
+    void getOriginalVideoPath();
+    void origVideoPlay();
+    void synoVideoPlay();
+    void analyze();
+    void synopsis();
+    void bgImgDisplay();
+    void keyAvtivityDisplay();
 };
 
 #endif // SYNOPSISER_H
