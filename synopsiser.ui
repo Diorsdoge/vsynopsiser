@@ -115,8 +115,73 @@
      </rect>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string/>
     </property>
+    <widget class="QCheckBox" name="upBox">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>190</y>
+       <width>86</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>上</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="leftBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>86</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="rightBox">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>220</y>
+       <width>86</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="downBox">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>250</y>
+       <width>86</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="retrivalButton">
+     <property name="geometry">
+      <rect>
+       <x>92</x>
+       <y>270</y>
+       <width>71</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>检索</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
